@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
 	context: path.resolve(__dirname, 'src'),
 	entry: {
-		madosel: './app.scss',
+		app: './app.scss',
 	},
 	output: {
 		path: path.join(__dirname, 'dist'),
