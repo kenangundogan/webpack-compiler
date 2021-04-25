@@ -8,16 +8,14 @@
 
 #### Install Webpack Plugin (Terminal)
 ```
-1. npm install webpack
-2. npm install webpack-cli
-3. npm install webpack-merge
-4. npm install style-loader
-5. npm install css-loader
-6. npm install sass-loader
-7. npm install sass
-8. npm install node-sass
-9. npm install postcss
-10. npm install postcss-loader
-11. npm install autoprefixer
-12. npm install mini-css-extract-plugin
+1. npm install --save-dev webpack
+2. npm install --save-dev webpack-cli
+3. npm install --save-dev webpack-merge
+4. npm install -D babel-loader @babel/core @babel/preset-env webpack
+5. npm install --save-dev sass-loader sass
+6. npm install --save-dev postcss-loader postcss
+7. npm install --save-dev autoprefixer
+8. npm install --save-dev mini-css-extract-plugin
+9. npm install webpack-remove-empty-scripts
+
 ```
